@@ -1,0 +1,24 @@
+.aside {
+    width: 99px;
+    height: calc(100% - 100px);
+    box-sizing: border-box;
+    border-right: 0.5px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.aside .item {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.item:last-child{
+    margin-top: auto;
+}
+.item .text {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
