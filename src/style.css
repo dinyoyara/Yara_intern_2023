@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.5px solid gray;
+}
+
+.logo .image {
+    width: 60px;
+    height: 60px;
+}
+.bar{
+    width: calc( 100% - 60px );
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bar .title {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.menu-container, .settings-container {
+    display: flex;
+}
+.bar .settings-container {
+    margin-left: auto;
+}
+.menu-container .input {
+    margin-right: 20px;
+}
+.settings-container .input{
+    color: rgba(121,168,215,255);
+    margin-right: 20px;
+}
+.input{
+    border: none;
+}
