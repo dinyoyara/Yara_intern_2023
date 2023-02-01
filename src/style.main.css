@@ -1,0 +1,83 @@
+.main {
+    box-sizing: border-box;
+    width: calc(100% - 120px);
+    height: calc(100% - 120px);
+    padding: 60px;
+    background-color: rgba(233,239,245,255);
+}
+.texts-container, .ss-item, .selects-container {
+    margin: 10px 0 30px;
+}
+.texts-container .text-1,
+.texts-container .text-2,
+.texts-container .text-3 {
+    line-height: 35px;
+}
+.texts-container .text-1{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.8);
+}
+.texts-container .text-2{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+}
+.texts-container .text-3{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.2);
+}
+.ss-item .text,
+.selects-container .label,
+.pre-post-show-btn .text {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+}
+.ss-item {
+    display: flex;
+    flex-direction: column;
+}
+.ss-item .plate {
+    background-color: rgba(238,254,241,255);
+    padding: 3px;
+    margin-top: 10px;
+    width: fit-content;
+    border: 1px solid  rgba(192,239,195,255);
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+}
+.selects-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.selects-container .select-box {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px 20px 0;
+}
+.select-box .select {
+    width: 450px;
+    height: 40px;
+    border: 0.5px solid rgba(116,169,214,255);
+    border-radius: 3px;
+    color: rgba(116,169,214,255);
+}
+.pre-post-show-btn{
+    background-color: white;
+    border-radius: 3px;
+    height: 40px;
+   display: flex;
+   align-items: center;
+}
+.pre-post-show-btn .fa {
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color:rgba(0, 0, 0, 0.7)
+}
+.pre-post-show-btn .fa-angle-down{
+    display: none;
+}
