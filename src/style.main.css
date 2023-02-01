@@ -1,10 +1,3 @@
-.main {
-    box-sizing: border-box;
-    width: calc(100% - 120px);
-    height: calc(100% - 120px);
-    padding: 60px;
-    background-color: rgba(233,239,245,255);
-}
 .texts-container, .ss-item, .selects-container {
     margin: 10px 0 30px;
 }
@@ -15,7 +8,7 @@
 }
 .texts-container .text-1{
     font-size: 32px;
-    font-weight: 800;
+    font-weight: bolder;
     color: rgba(0, 0, 0, 0.8);
 }
 .texts-container .text-2{
@@ -30,8 +23,7 @@
 }
 .ss-item .text,
 .selects-container .label,
-.pre-post-show-btn .text,
-.table .row .cell {
+.pre-post-show-btn .text {
     font-size: 14px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.7);
@@ -54,7 +46,7 @@
     flex-wrap: wrap;
 }
 .selects-container .select-box {
-    width: 30%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     margin: 0 60px 20px 0;
@@ -80,12 +72,13 @@
 
 }
 .pre-post-show-btn, .add-crops-container{
-    width: 75%;
+    width: 100%;
 }
 .pre-post-show-btn {
    background-color: white;
    display: flex;
    align-items: center;
+   cursor: pointer;
 }
 .pre-post-show-btn .fa {
     margin: 0 20px;
@@ -93,7 +86,13 @@
     font-weight: 700;
     color:rgba(0, 0, 0, 0.7)
 }
-.pre-post-show-btn .fa-angle-down{
+#checkBtn{
+    display: none;
+}
+#checkBtn:checked ~ #table-container{
+    display: block;
+}
+#table-container{
     display: none;
 }
 .add-crops-container .label,
@@ -106,8 +105,7 @@
     padding: 0 10px;
     border-radius: 5px;
     color: white;
-    font-size: 18px;
-    font-weight: 600;
+
     line-height: 30px;
 }
 .add-crops-container .table {
@@ -125,6 +123,7 @@
     width: calc((100% - 2px) / 5);
     text-align: start;
     padding-left: 10px;
+    font-size: 14px;
 }
 .table .row:last-child .cell {
     border-bottom: none;
@@ -140,7 +139,7 @@
     color: white;
 }
 .table .search-row .cell,
-.table .row .cell .dots {
+.add-crops-container .table .row .cell.dots {
     color: rgba(20,112,188,255);
 }
 .table .row .dots {
@@ -156,4 +155,22 @@
     border-radius: 50%;
     text-align: center;
     margin: auto;
+}
+.arrow-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: white;
+    width: 18px;
+    border: 1px solid rgba(233,239,245,255);
+    border-radius: 100%;
+    top: 40px;
+    left: -10px;
+    z-index: 2;
+}
+.arrow-circle .fa{
+    font-size: 18px;
+    font-weight: 600;
+    color:rgba(31,116,190,255);
 }

@@ -1,24 +1,17 @@
-.header{
-    height: 120px;
-    width: 100%;
-    display: flex;
-    /* border-bottom: 0.5px solid gray; */
-}
-
 .logo .image {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
 }
 .header .bar{
-    width: calc( 100% - 120px );
+    width: calc( 100% - 100px );
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 .bar .title {
     margin: 0 20px;
-    font-size: 30px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 800;
 }
 .bar .title, .menu-container .select  {
     color: rgba(0, 0, 0, 0.7);
@@ -31,13 +24,13 @@
 }
 .menu-container .select, .settings-container .select {
     border: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 .menu-container .select {
     margin-right: 20px;
 }
 .settings-container .select{
-    color: rgba(121,168,215,255);
+    color: rgba(31,116,190,255);
     margin-right: 20px;
 }
