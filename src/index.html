@@ -32,7 +32,7 @@
             </div>
         </div>
     </div>
-    <div class="aside">
+    <div class="nav">
         <div class="item">
             <div class="icon">
                 <img src="../assets/icons/crops.jpg" alt="">
@@ -76,7 +76,51 @@
             <div class="text">Global settings</div>
         </div>
     </div>
+    <div class="aside">
+        <div class="breadcrumb">
+            <span class="text text-blue">Crops <i class="fa fa-angle-right" aria-hidden="true"></i> Almonds Generic <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <span class="text">&nbsp;Crop details</span>
+        </div> 
+        <div class="title-container">
+            <span class="title">Crops</span>
+            <span class="dots">...</span>
+        </div> 
+        <div class="wheat-item">
+            <div class="icon">
+                <img src="../assets/icons/blue.wheat.jpg" alt="">
+            </div>
+            <span class="text text-blue">Almonds Generic</span>
+            <span class="dots">...</span>
+        </div>
+        <div class="item-rows-container">
+            <div class="item-row">
+                <span class="text text-blue">Crop details</span>
+            </div>
+            <div class="item-row">
+                <span class="text">Crop Nutrition plan</span>
+                <span class="icon-box">
+                    <i class="fa fa-check"></i>
+                </span>
+            </div>
+            <div class="item-row">
+                <span class="text">Test Harness Center</span>
+            </div>
+        </div>
+        <div class="wheat-item">
+            <div class="icon">
+                <img src="../assets/icons/blue.wheat.jpg" alt="">
+            </div>
+            <span class="text">Winter wheat Biscuit</span>
+            <span class="dots">...</span>
+        </div>
+        <div class="add-crop-container">
+            <span class="text text-blue">+ Add Crop to Mayotte - All Regions</span>
+        </div>
+    </div>
     <div class="main">
+        <div class="arrow-circle">
+            <i class="fa fa-angle-left" aria-hidden="true"></i>
+        </div>
         <div class="texts-container">
             <div class="text-1">Almonds Generic</div>
             <div class="text-2">Crop details</div>
@@ -106,12 +150,12 @@
                 </select>
             </div>
         </div>
-        <div class="pre-post-show-btn">
-            <i class="fa fa-angle-down" aria-hidden="true"></i>
+        <input id="checkBtn" type="checkbox"> </intup>
+        <label for="checkBtn" class="pre-post-show-btn">
             <i class="fa fa-angle-up" aria-hidden="true"></i>
             <span class="text">Pre-crops and Post-crops</span>
-        </div>
-        <div class="add-crops-container">
+        </label>
+        <div id="table-container" class="add-crops-container">
             <div class="label">Add Pre- and Post- crops</div>
             <table class="table">
                 <tr class="row head-row">
