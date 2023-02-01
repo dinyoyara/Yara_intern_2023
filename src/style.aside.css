@@ -1,8 +1,8 @@
 .aside {
-    width: 99px;
-    height: calc(100% - 100px);
+    width: 120px;
+    height: calc(100% - 120px);
     box-sizing: border-box;
-    border-right: 0.5px solid gray;
+    /* border-right: 0.5px solid gray; */
     display: flex;
     flex-direction: column;
     padding: 10px 0;
@@ -13,12 +13,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .item:last-child{
     margin-top: auto;
 }
 .item .text {
-    font-size: 14px;
-    font-weight: 600;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 700;
     text-align: center;
 }
