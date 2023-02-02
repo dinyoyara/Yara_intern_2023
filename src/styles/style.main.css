@@ -53,8 +53,8 @@
 }
 .select-box .select, 
 .pre-post-show-btn,
-.add-crops-container .label,
-.add-crops-container .table {
+.table-container .label,
+.table-container .table {
     box-shadow: 1px 1px 2px  rgba(255,255,255, 0.2);
 }
 .select-box .select, 
@@ -71,7 +71,7 @@
     border: 1px solid rgba(116,169,214,255);
 
 }
-.pre-post-show-btn, .add-crops-container{
+.pre-post-show-btn, .table-container{
     width: 100%;
 }
 .pre-post-show-btn {
@@ -95,11 +95,11 @@
 #table-container{
     display: none;
 }
-.add-crops-container .label,
-.add-crops-container .table .head-row{
+.table-container .label,
+.table-container .table .head-row{
     background-color: rgba(20,112,188,255);
 }
-.add-crops-container .label{
+.table-container .label{
     width: fit-content;
     margin: 20px 0 20px auto;
     padding: 0 10px;
@@ -108,7 +108,7 @@
 
     line-height: 30px;
 }
-.add-crops-container .table {
+.table-container .table {
     width: 100%;
 }
 .table{
@@ -120,7 +120,7 @@
 .table .row .cell {
     border-right: 0.1px solid white;
     border-bottom: 0.1px solid white;
-    width: calc((100% - 2px) / 5);
+    width: calc(100%  / 5);
     text-align: start;
     padding-left: 10px;
     font-size: 14px;
@@ -139,7 +139,7 @@
     color: white;
 }
 .table .search-row .cell,
-.add-crops-container .table .row .cell.dots {
+.table-container .table .row .cell.dots {
     color: rgba(20,112,188,255);
 }
 .table .row .dots {
