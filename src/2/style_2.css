@@ -50,14 +50,14 @@
     border-bottom:  1px solid rgba(0,0,0, 0.1);
 }
 .tabs-container .tab {
-    padding: 0 20px;
-    height: 25px;
+    padding: 0 25px;
+    height: 40px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 8px;
+    margin-right: 12px;
 }
 .tabs-container .tab-green {
     background-color: rgba(47,117,73,255);
@@ -66,11 +66,67 @@
     background-color: white;
 }
 .tabs-container .tab .text {
-    font-size: 12px;
+    font-size: 17px;
 }
 .tab .text-white {
     color: white;
 }
 .tab .text-lightblue {
     color: rgba(121,168,213,255);
+}
+.main_2 .table-container {
+    margin-top: 50px;
+}
+.table-container .title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(0,0,0, 0.8);
+}
+.main_2 .table-container .table .row {
+    height: 50px;
+}
+.main_2 .table-container .table .row .cell {
+    width: 11%;
+    font-size: 18px;
+}
+.main_2 .table-container .table .row .cell-head-biggest {
+    width: 29%;
+}
+.main_2 .table-container .table .row .cell-head-bigger {
+    width: 18%;
+}
+.main_2 .table-container .table .row .cell-head-smallest{
+    width: 4%;
+}
+.main_2 .table-container .table .row .cell-head-smaller {
+    width: 7%;
+}
+.table .search-row .cell-text-grey {
+    color: rgba(0,0,0, 0.3);
+    padding-right: 10px;
+}
+.table .last-row .cell-text-underline {
+    color:  rgba(20,112,188,255);
+    text-decoration: underline;
+}
+.table .last-row .cell .green-dot {
+    margin-right: 5px;
+    padding: 0 9px;
+    background-color: rgba(118,215,122,255);
+    border-radius: 100%;
+}
+.table .last-row .cell .text-orange {
+   color: rgba(255,143,42,255);
+}
+.table .last-row .cell-qm .qm{
+    width: 20px;
+}
+.table-container .table .row .cell.cell-head.cell-sort {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 170px;
+    height: 50px;
+    padding-right: 10px;
 }
