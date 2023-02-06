@@ -1,16 +1,20 @@
+@import './const.css';
+
+.breadcrumb {
+    margin-bottom: 20px;
+}
 .breadcrumb .text {
     font-size: 14px;
     font-weight: 600;
-    color: rgba(0,0,0,0.8);
 }
-.breadcrumb .text-blue,
-.wheat-item .text-blue,
-.item-row .text-blue,
-.add-crop-container .text-blue {
-    color:rgba(31,116,190,255);
+.breadcrumb .text-black{
+    color: var(--color-text-08);
+}
+.breadcrumb .text-blue {
+    color: var(--color-blue);
 }
 .aside .title-container {
-    margin-top: 20px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
 }
@@ -18,15 +22,14 @@
 .title-container .title{
     font-size: 28px;
     font-weight: bolder;
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--color-text-08);
 }
 .aside .dots {
     font-size: 20px;
     font-weight: 800;
-    color: rgba(20,112,188,255);
+    color: var(--color-blue-dots)
 }
 .wheat-item {
-    margin-top: 50px;
     display: flex;
     align-items: center;
 }
@@ -47,7 +50,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid rgba(233,239,245,255);
+    border-bottom: 1px solid var(--color-grey);
 }
 .item-row .text {
     font-size: 14px;
@@ -55,7 +58,7 @@
 }
 .item-row .icon-box {
     margin-left: auto;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--color-text-01);
     width: 14px;
     border-radius: 100%;
     display: flex;
@@ -63,13 +66,13 @@
     align-items: center;
 }
 .icon-box .fa {
-    color:  rgba(0, 0, 0, 0.1);
+    color:  var(--color-text-01);
     font-size: 12px;
 }
 .add-crop-container{
     height: 40px;
     margin-top: auto;
-    border-top: 1px solid rgba(233,239,245,255);
+    border-top: 1px solid var(--color-grey);
     display: flex;
     justify-content: center;
     align-items: center;

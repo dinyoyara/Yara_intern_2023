@@ -1,0 +1,7 @@
+:root {
+    --color-blue: rgba(31,116,190,255);
+    --color-blue-dots: rgba(20,112,188,255);
+    --color-grey: rgba(233,239,245,255);
+    --color-text-01: rgba(0,0,0,0.1);
+    --color-text-08: rgba(0,0,0,0.8);
+}
